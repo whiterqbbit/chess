@@ -1,0 +1,68 @@
+td{
+  width: 65px;
+  height: 65px;
+  text-align: center;     
+}
+
+.brown {
+  background-color: rgb(181, 136, 99);
+}
+
+.orange {
+  background-color: rgb(240, 217, 181);
+}
+
+.black {
+  width: 50px;
+  height: 50px;
+  background-image: url('/assets/Chess_rdt45.svg');
+  object-fit: cover;
+}
+
+.rook2 {
+  width: 50px;
+  height: 50px;
+  background-image: url('/assets/Chess_rdt45.png');
+  object-fit: cover;
+}
+
+.image {
+  position: relative;
+  width: 70px;
+  height: 70px;
+}
+
+.imagepardessus {
+  top: 22px;
+  left: 20px;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+}
+
+
+div {
+  text-align: center;
+  position: relative;
+}
+
+.caseblack {
+  background-color: rgb(100, 100, 100);
+
+}
+
+.casewhite {
+  background-color: rgb(200, 200, 200);
+
+}
+
+.giveupbuttons {
+  float: center;
+}
+
+.choice {
+  background-color: rgb(50, 50, 50);
+  width: 70px;
+  height: 70px;
+  padding: 2px;
+}

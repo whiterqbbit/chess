@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="Chess_files/style.css">
+    <script defer="defer" src="Chess_files/chess.js"></script>
+    <title>Chess</title>
+  </head>
+
+  <body>
+    <div id="wehaveawinner"></div>
+    <div id="choose"></div>
+    <table>
+    	<tbody><tr>
+	    	<td class="orange"><div onclick="reply_click(this.id)"><img id="07" class="image" src="Chess_files/Chess_rdt45.svg"></div></td>
+	    	<td class="brown"><div onclick="reply_click(this.id)"><img id="17" class="image" src="Chess_files/Chess_ndt45.svg"></div></td>
+	    	<td class="orange"><div onclick="reply_click(this.id)"><img id="27" class="image" src="Chess_files/Chess_bdt45.svg"></div></td>
+	    	<td class="brown"><div onclick="reply_click(this.id)"><img id="37" class="image" src="Chess_files/Chess_qdt45.svg"></div></td>
+	    	<td class="orange"><div onclick="reply_click(this.id)"><img id="47" class="image" src="Chess_files/Chess_kdt45.svg"></div></td>
+	    	<td class="brown"><div onclick="reply_click(this.id)"><img id="57" class="image" src="Chess_files/Chess_bdt45.svg"></div></td>
+	    	<td class="orange"><div onclick="reply_click(this.id)"><img id="67" class="image" src="Chess_files/Chess_ndt45.svg"></div></td>
+	    	<td class="brown"><div onclick="reply_click(this.id)"><img id="77" class="image" src="Chess_files/Chess_rdt45.svg"></div></td>
+    	</tr>
+    	<tr>
+	    	<td class="brown"><div onclick="reply_click(this.id)"><img id="06" class="image" src="Chess_files/Chess_pdt45.svg"></div></td>
+	    	<td class="orange"><div onclick="reply_click(this.id)"><img id="16" class="image" src="Chess_files/Chess_pdt45.svg"></div></td>
+	    	<td class="brown"><div onclick="reply_click(this.id)"><img id="26" class="image" src="Chess_files/Chess_pdt45.svg"></div></td>
+	    	<td class="orange"><div onclick="reply_click(this.id)"><img id="36" class="image" src="Chess_files/Chess_pdt45.svg"></div></td>
+	    	<td class="brown"><div onclick="reply_click(this.id)"><img id="46" class="image" src="Chess_files/Chess_pdt45.svg"></div></td>
+	    	<td class="orange"><div onclick="reply_click(this.id)"><img id="56" class="image" src="Chess_files/Chess_pdt45.svg"></div></td>
+	    	<td class="brown"><div onclick="reply_click(this.id)"><img id="66" class="image" src="Chess_files/Chess_pdt45.svg"></div></td>
+	    	<td class="orange"><div onclick="reply_click(this.id)"><img id="76" class="image" src="Chess_files/Chess_pdt45.svg"></div></td>
+    	</tr>
+    	<tr>
+	    	<td class="orange"><div onclick="reply_click(this.id)"><img id="05" class="image" src="Chess_files/No_image.svg"></div></td>
+	    	<td class="brown"><div onclick="reply_click(this.id)"><img id="15" class="image" src="Chess_files/No_image.svg"></div></td>
+	    	<td class="orange"><div onclick="reply_click(this.id)"><img id="25" class="image" src="Chess_files/No_image.svg"></div></td>
+	    	<td class="brown"><div onclick="reply_click(this.id)"><img id="35" class="image" src="Chess_files/No_image.svg"></div></td>
+	    	<td class="orange"><div onclick="reply_click(this.id)"><img id="45" class="image" src="Chess_files/No_image.svg"></div></td>
+	    	<td class="brown"><div onclick="reply_click(this.id)"><img id="55" class="image" src="Chess_files/No_image.svg"></div></td>
+	    	<td class="orange"><div onclick="reply_click(this.id)"><img id="65" class="image" src="Chess_files/No_image.svg"></div></td>
+	    	<td class="brown"><div onclick="reply_click(this.id)"><img id="75" class="image" src="Chess_files/No_image.svg"></div></td>
+    	</tr>
+    	<tr>
+	    	<td class="brown"><div onclick="reply_click(this.id)"><img id="04" class="image" src="Chess_files/No_image.svg"></div></td>
+	    	<td class="orange"><div onclick="reply_click(this.id)"><img id="14" class="image" src="Chess_files/No_image.svg"></div></td>
+	    	<td class="brown"><div onclick="reply_click(this.id)"><img id="24" class="image" src="Chess_files/No_image.svg"></div></td>
+	    	<td class="orange"><div onclick="reply_click(this.id)"><img id="34" class="image" src="Chess_files/No_image.svg"></div></td>
+	    	<td class="brown"><div onclick="reply_click(this.id)"><img id="44" class="image" src="Chess_files/No_image.svg"></div></td>
+	    	<td class="orange"><div onclick="reply_click(this.id)"><img id="54" class="image" src="Chess_files/No_image.svg"></div></td>
+	    	<td class="brown"><div onclick="reply_click(this.id)"><img id="64" class="image" src="Chess_files/No_image.svg"></div></td>
+	    	<td class="orange"><div onclick="reply_click(this.id)"><img id="74" class="image" src="Chess_files/No_image.svg"></div></td>
+    	</tr>
+      <tr>
+	    	<td class="orange"><div onclick="reply_click(this.id)"><img id="03" class="image" src="Chess_files/No_image.svg"></div></td>
+	    	<td class="brown"><div onclick="reply_click(this.id)"><img id="13" class="image" src="Chess_files/No_image.svg"></div></td>
+	    	<td class="orange"><div onclick="reply_click(this.id)"><img id="23" class="image" src="Chess_files/No_image.svg"></div></td>
+	    	<td class="brown"><div onclick="reply_click(this.id)"><img id="33" class="image" src="Chess_files/No_image.svg"></div></td>
+	    	<td class="orange"><div onclick="reply_click(this.id)"><img id="43" class="image" src="Chess_files/No_image.svg"></div></td>
+	    	<td class="brown"><div onclick="reply_click(this.id)"><img id="53" class="image" src="Chess_files/No_image.svg"></div></td>
+	    	<td class="orange"><div onclick="reply_click(this.id)"><img id="63" class="image" src="Chess_files/No_image.svg"></div></td>
+	    	<td class="brown"><div onclick="reply_click(this.id)"><img id="73" class="image" src="Chess_files/No_image.svg"></div></td>
+    	</tr>
+    	<tr>
+	    	<td class="brown"><div onclick="reply_click(this.id)"><img id="02" class="image" src="Chess_files/No_image.svg"></div></td>
+	    	<td class="orange"><div onclick="reply_click(this.id)"><img id="12" class="image" src="Chess_files/No_image.svg"></div></td>
+	    	<td class="brown"><div onclick="reply_click(this.id)"><img id="22" class="image" src="Chess_files/No_image.svg"></div></td>
+	    	<td class="orange"><div onclick="reply_click(this.id)"><img id="32" class="image" src="Chess_files/No_image.svg"></div></td>
+	    	<td class="brown"><div onclick="reply_click(this.id)"><img id="42" class="image" src="Chess_files/No_image.svg"></div></td>
+	    	<td class="orange"><div onclick="reply_click(this.id)"><img id="52" class="image" src="Chess_files/No_image.svg"></div></td>
+	    	<td class="brown"><div onclick="reply_click(this.id)"><img id="62" class="image" src="Chess_files/No_image.svg"></div></td>
+	    	<td class="orange"><div onclick="reply_click(this.id)"><img id="72" class="image" src="Chess_files/No_image.svg"></div></td>
+    	</tr>
+      <tr>
+	    	<td class="orange"><div onclick="reply_click(this.id)"><img id="01" class="image" src="Chess_files/Chess_plt45.svg"></div></td>
+	    	<td class="brown"><div onclick="reply_click(this.id)"><img id="11" class="image" src="Chess_files/Chess_plt45.svg"></div></td>
+	    	<td class="orange"><div onclick="reply_click(this.id)"><img id="21" class="image" src="Chess_files/Chess_plt45.svg"></div></td>
+	    	<td class="brown"><div onclick="reply_click(this.id)"><img id="31" class="image" src="Chess_files/Chess_plt45.svg"></div></td>
+	    	<td class="orange"><div onclick="reply_click(this.id)"><img id="41" class="image" src="Chess_files/Chess_plt45.svg"></div></td>
+	    	<td class="brown"><div onclick="reply_click(this.id)"><img id="51" class="image" src="Chess_files/Chess_plt45.svg"></div></td>
+	    	<td class="orange"><div onclick="reply_click(this.id)"><img id="61" class="image" src="Chess_files/Chess_plt45.svg"></div></td>
+	    	<td class="brown"><div onclick="reply_click(this.id)"><img id="71" class="image" src="Chess_files/Chess_plt45.svg"></div></td>
+    	</tr>
+    	<tr>
+	    	<td class="brown"><div onclick="reply_click(this.id)"><img id="00" class="image" src="Chess_files/Chess_rlt45.svg"></div></td>
+	    	<td class="orange"><div onclick="reply_click(this.id)"><img id="10" class="image" src="Chess_files/Chess_nlt45.svg"></div></td>
+	    	<td class="brown"><div onclick="reply_click(this.id)"><img id="20" class="image" src="Chess_files/Chess_blt45.svg"></div></td>
+	    	<td class="orange"><div onclick="reply_click(this.id)"><img id="30" class="image" src="Chess_files/Chess_qlt45.svg"></div></td>
+	    	<td class="brown"><div onclick="reply_click(this.id)"><img id="40" class="image" src="Chess_files/Chess_klt45.svg"></div></td>
+	    	<td class="orange"><div onclick="reply_click(this.id)"><img id="50" class="image" src="Chess_files/Chess_blt45.svg"></div></td>
+	    	<td class="brown"><div onclick="reply_click(this.id)"><img id="60" class="image" src="Chess_files/Chess_nlt45.svg"></div></td>
+	    	<td class="orange"><div onclick="reply_click(this.id)"><img id="70" class="image" src="Chess_files/Chess_rlt45.svg"></div></td>
+    	</tr>
+    </tbody></table>
+    <br>
+    <br>
+    <table class="giveupbuttons">
+    	<tbody><tr>
+	    	<td class="caseblack"><div onclick="giveup('B')">la vie de Black est trop dure</div></td>
+	    	<td class="casewhite"><div onclick="giveup('W')">White dit "argh"</div></td>
+    	</tr>
+    </tbody></table>
+  
+<div id="forest-ext-shadow-host"></div></body></html>
